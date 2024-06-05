@@ -6,15 +6,16 @@ language: 'en-uk'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
+baseurl: /
 
 # Website info
-title: Echo & Sauron
-description: Our First Love Was Each Other
-cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
-favicon: assets/images/favicon.png
+title: UBI Center
+description: Analyzing universal basic income policies with open-source research
+cover: assets/images/banner.png
+logo: assets/images/logos/wide-white.jpg
+logo_dark: assets/images/logos/wide-blue.jpg
+favicon: assets/images/logos/square-blue.png
+social_preview_image: assets/images/logos/wide-social-preview.png
 CNAME: #add cname for website to be created
 
 # Social info
@@ -22,20 +23,21 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: Echo&Sauron # replace by your username
-facebook: Echo&Sauron # replace by your username
-
+twitter: TheUBICenter
+facebook: UBICenter
+github: UBICenter
+# mailchimp-list: 
 # Disqus
 disqus: False
-disqus_shortname: jekyllt # replace with your disqus username
+disqus_shortname: ubicenter
 
 # Google Analytics
-#google_analytics: UA-69281367-1 # replace with your GA tracking identifier
+google_analytics: UA-138885251-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
-#permalink: /author/:author
-#permalink: /tag/:tag
+# permalink: /author/:author
+# permalink: /tag/:tag
 
 # Authors' info in `_data/authors.yml`
 # Tags' info in `_data/tags_info.yml`
@@ -59,33 +61,21 @@ feed:
 # with jekyll-travis
 
 # Settings for deploy rake task
-# Usrname and repo of Github repo, e.g.
-## https://github.com/USERNAME/REPO.git
-## username defaults to ENV['GIT_NAME'] used by Travis
-## repo defaults to USERNAME.github.io
-## Branch defaults to "source" for USERNAME.github.io
-## or "master" otherwisee
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
 safe: False
 lsi: False
-username: SauronEcho
+username: UBICenter
 repo: SauronEcho.github.io
 branch: master
 relative_source: ../SauronEcho.github.io/
-destination: ../SauronEcho.github.io/
-production_url:  http://SauronEcho.github.io/
-source_url:  https://github.com/jekyllt/jasper2/
-# https://github.com/SauronEcho/SauronEcho.github.io
-#safe: False
-#lsi: False
-#username: SauronEcho
-#repo: SauronEcho.github.io
-#branch: master
-#relative_source: ../SauronEcho.github.io/
-#destination: ./_site
-#production_url:  https://sauronecho.love/
-#source_url:  https://github.com/SauronEcho/SauronEcho.github.io/
-
-# https://$GIT_NAME:$GH_TOKEN@github.com/jekyllt/jasper2.git
+destination: ./_site
+production_url:  https://SauronEcho.github.io/
+source_url:  https://github.com/SauronEcho/SauronEcho.github.io/
 
 exclude:
   - assets/css
