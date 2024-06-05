@@ -1,0 +1,8 @@
+essay:
+  name: essay
+  description: 个人随笔
+  cover: assets/images/essay-diary-cover.jpg
+love-diary:
+  name: love-diary
+  description: 记录每天与你的生活一直到我们老去
+  cover: assets/images/love-diary-cover.jpg

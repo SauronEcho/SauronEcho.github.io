@@ -1,0 +1,23 @@
+Sauron:
+  username: Sauron
+  name: Sauron
+  location: Hangzhou, China
+  url_full: https://sauronecho.love/
+  url: https://sauronecho.love/
+  bio: 喜欢乖乖
+  picture: assets/images/Sauron.jpg
+  facebook: False
+  twitter: False
+  cover: assets/images/sauron-cover.jpg
+Echo:
+  username: Echo
+  name: Echo
+  location: Hangzhou, China
+  url_full: https://sauronecho.love/
+  url: https://sauronecho.love/
+  bio: 热爱生活
+  picture: assets/images/Echo.jpg
+  facebook: False
+  twitter: False
+  cover: assets/images/echo-cover.jpg
+
