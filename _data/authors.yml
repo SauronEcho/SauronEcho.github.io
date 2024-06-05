@@ -1,7 +1,7 @@
 sauron:
-  username: Sauron
-  name: Xiaoran Li
-  title: Xiaoran Li
+  username: sauron
+  name: Sauron
+  title: Sauron
   location: China, HangZhou
   url_full: False
   url: False
@@ -15,15 +15,15 @@ sauron:
   is_active: True
   type: staff
 echo:
-  username: Echo
-  name: Ying Lei
-  title: Ying Lei
+  username: echo
+  name: Echo
+  title: Echo
   location: China, HangZhou
   url_full: False
   url: False
   short_bio: Observe oneself to understand the world
   bio: self-reflection and understanding of oneself are key to gaining insights into the broader world
-  picture: assets/images/authors/sauron_1.jpg
+  picture: assets/images/authors/echo.jpg
   github: Echo
   medium: Echo
   twitter: Echo
