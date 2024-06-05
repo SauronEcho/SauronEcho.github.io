@@ -1,11 +1,11 @@
 sauron:
   username: sauron
-  name: Sauron
+  name: Xiaoran Li
   title: Sauron
   location: China, HangZhou
   url_full: False
   url: False
-  short_bio: www.xiaoranli.com
+  short_bio: @xiaoranli.com
   bio: Knowledge Graph and LLM Algorithm Engineer
   picture: assets/images/authors/sauron_1.jpg
   github: SauronLee
@@ -17,7 +17,7 @@ sauron:
 
 echo:
   username: echo
-  name: Echo
+  name: Ying Lei
   title: Echo
   location: China, HangZhou
   url_full: False
