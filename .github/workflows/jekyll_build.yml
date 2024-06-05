@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: helaili/jekyll-action@v2
+      - uses: jeffreytse/jekyll-deploy-action@master
         with:
           token: ${{ secrets.SAURONECHO_WEB_ACTIONS }}
           target_branch: 'gh-pages'
