@@ -1,8 +1,4 @@
-vat:
-  name: vat
-  description: Posts about value added taxes
-  cover: assets/images/banner.png  # TODO: Make this the default.
-us:
-  name: us
-  description: Posts about the United States of America
+hangzhou:
+  name: hangzhou
+  description: Posts about the HangZhou of China
   cover: assets/images/banner.png  # TODO: Make this the default.
