@@ -9,7 +9,7 @@ words_per_minute: 200
 baseurl: /
 
 # Website info
-title: UBI Center
+title: Sauron & Echo
 description: Analyzing universal basic income policies with open-source research
 cover: assets/images/banner.png
 logo: assets/images/logos/wide-white.jpg
@@ -23,16 +23,16 @@ navigation: True # show the navbar links
 subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
-twitter: TheUBICenter
-facebook: UBICenter
-github: UBICenter
+twitter: Sauron&Echo
+facebook: Sauron&Echo
+github: Sauron&Echo
 # mailchimp-list: 
 # Disqus
 disqus: False
-disqus_shortname: ubicenter
+disqus_shortname: Sauron&Echo
 
 # Google Analytics
-google_analytics: UA-138885251-1 # replace with your GA tracking identifier
+#google_analytics: UA-138885251-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
