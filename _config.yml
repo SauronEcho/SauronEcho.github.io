@@ -65,25 +65,25 @@ feed:
 ## repo defaults to USERNAME.github.io
 ## Branch defaults to "source" for USERNAME.github.io
 ## or "master" otherwisee
-#safe: False
-#lsi: False
-#username: SauronEcho
-#repo: SauronEcho.github.io
-#branch: master
-#relative_source: ../SauronEcho.github.io/
-#destination: ../SauronEcho.github.io/
-#production_url:  http://SauronEcho.github.io/
-#source_url:  https://github.com/jekyllt/jasper2/
-# https://github.com/SauronEcho/SauronEcho.github.io
 safe: False
 lsi: False
 username: SauronEcho
 repo: SauronEcho.github.io
 branch: master
 relative_source: ../SauronEcho.github.io/
-destination: ./_site
-production_url:  https://sauronecho.love/
-source_url:  https://github.com/SauronEcho/SauronEcho.github.io/
+destination: ../SauronEcho.github.io/
+production_url:  http://SauronEcho.github.io/
+source_url:  https://github.com/jekyllt/jasper2/
+# https://github.com/SauronEcho/SauronEcho.github.io
+#safe: False
+#lsi: False
+#username: SauronEcho
+#repo: SauronEcho.github.io
+#branch: master
+#relative_source: ../SauronEcho.github.io/
+#destination: ./_site
+#production_url:  https://sauronecho.love/
+#source_url:  https://github.com/SauronEcho/SauronEcho.github.io/
 
 # https://$GIT_NAME:$GH_TOKEN@github.com/jekyllt/jasper2.git
 
